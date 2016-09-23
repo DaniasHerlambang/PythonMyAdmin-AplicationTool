@@ -648,35 +648,4 @@ if __name__ =='__main__':
     app = Data(root)
     root.mainloop()
 
-#####************************************************************************************************************************
-##import MySQLdb
-##
-##connection = MySQLdb.connect(
-##                host = 'localhost',
-##                user = 'root',
-##                passwd = 'x')  # create the connection
-##
-##cursor = connection.cursor()     # get the cursor
-##
-##cursor.execute("USE perbankan") # select the database
-##cursor.execute("desc perbankan")
-##table_name = cursor.fetchall()
-##for (table_name,) in cursor:
-##        print(table_name)
-##
-##connection = MySQLdb.connect(host='localhost',user='root',passwd='x',db='perbankan')
-##cursor = connection.cursor()
-##sql = "desc rekening;"
-##cursor.execute(sql)
-##response = cursor.fetchall()
-##for row in response:
-##    print row[0]
-####
-##connection = MySQLdb.connect(host='localhost',user='root',passwd='x',db='perbankan')
-##cursor = connection.cursor()
-##sql = "use rekening;"
-##cursor.execute("insert into rekening ( no_rekening , kode_cabangFK , pin, saldo) values (197,'BRUX' , '0000',500000);")
-##connection.commit()
 
-###************************************************************************************************************************
-##
